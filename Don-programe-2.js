@@ -1,28 +1,37 @@
-Number1 = input ("Enter the first number ?")
-Number2 = input ("Enter the second number ?")
+var A = prompt ("Enter the first number ?")
+var B = prompt ("Enter the second number ?")
 
-def add(x, y):
+function add(x, y):
   return x + y
  
-def subtract(x, y):
+function subtract(x, y):
    return x - y
 
-def multiply(x, y):
+function multiply(x, y):
    return x * y
 
-def divide(x, y):
+function divide (x, y):
    return x / y
 
-def greater_than (x,y):
+function greater_than (x,y):
     return x < y
 
-def less_than (x,y):
+function less_than (x,y):
     return x > y
 
-def is_equal (x,y):
+function is_equal (x,y):
     return x!=y
 
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+console .log ("1.Add")
+console .log("2.Subtract")
+console .log("3.Multiply")
+console .log("4.Divide")
+console .log("5.Mode")
+console.log ("6.Equal to")
+
+add(num1, num2);
+substract(num1, num2);
+mult(num1, num2);
+devide(num1, num2);
+mod(num1, num2);
+compare(num1, num2);
