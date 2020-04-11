@@ -1,6 +1,3 @@
-var A = prompt ("Enter the first number ?")
-var B = prompt ("Enter the second number ?")
-
 function add(x, y):
   return x + y
  
@@ -21,6 +18,9 @@ function less_than (x,y):
 
 function is_equal (x,y):
     return x!=y
+
+var A = prompt ("Enter the first number ?")
+var B = prompt ("Enter the second number ?")
 
 console .log ("1.Add")
 console .log("2.Subtract")
