@@ -1,37 +1,27 @@
-function add(x, y):
-  return x + y
- 
-function subtract(x, y):
-   return x - y
+function add(a, b) {
+    let sum = a + b;
+    console.log("The sum is", sum);
+}
 
-function multiply(x, y):
-   return x * y
+function substract(b,c) {
+    let diff = b - c;
+    console.log("The difference is", diff);
+}
 
-function divide (x, y):
-   return x / y
+function multiply(d,e) {
+    let product = d * e;
+    console.log("The product is", product);
+}
 
-function greater_than (x,y):
-    return x < y
+function devide(f,g) {
+    let quotient = f / g;
+    console.log("The quotient is", quotient);
+}
 
-function less_than (x,y):
-    return x > y
 
-function is_equal (x,y):
-    return x!=y
-
-var A = prompt ("Enter the first number ?")
-var B = prompt ("Enter the second number ?")
-
-console .log ("1.Add")
-console .log("2.Subtract")
-console .log("3.Multiply")
-console .log("4.Divide")
-console .log("5.Mode")
-console.log ("6.Equal to")
-
+const num1 = prompt("Enter the first number");
+const num2 = prompt("Enter the second number");
 add(num1, num2);
 substract(num1, num2);
-mult(num1, num2);
+multiply(num1, num2);
 devide(num1, num2);
-mod(num1, num2);
-compare(num1, num2);
